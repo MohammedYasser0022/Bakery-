@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+        font-family: "Alegreya Sans";
+        font-weight: 400;
+    margin:0;
+    padding: 0;
+
+}
+
+.header{font-family: "Alegreya Sans", sans-serif;
+font-weight: 50px;
+
+    background-image: url(drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* font-size: 30px; */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header-item{
+    color: white;
+}
+.header-item h1{
+    font-size: 80px;
+    margin: 0;
+}
+.header-item h4,h5{
+    margin: 20px;
+    font-size: 25px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px ;
+    
+}
+.button button{
+    background-color: transparent;
+    color: azure;
+    border: white 1px solid;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.button  #b-1{
+background-color: rgb(146, 120, 88);
+}
+#b-1:hover{
+    background-color: white;
+    color: black;
+}
+.nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+    position: fixed;
+    top: 0; 
+    right: 0;
+    left: 0;
+}
+.nav-item ul{
+    display: flex;
+margin: 0;
+justify-content: flex-end;
+list-style: none;
+gap: 20px;
+font-size: 20px;
+
+
+}
+.nav-item  a{
+    color: white;
+    text-decoration: none
+}
+.nav-item a:hover{
+    color:rgb(146, 120, 88) ;
+}
+.nav-item img{
+    width: 200px;
+
+    
+}
+.nav .nav-item{
+    color: white;
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.sec-con{
+    display: flex;
+    margin: 15px 0;
+        justify-content: center;
+        align-items: center;
+}
+.sec-1{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.sec1-img img{
+    width: 80%; 
+    /* height: 470px; */
+
+}
+.sec-1 .text-1{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    color: #686868;
+
+    margin-right:  30px;
+    display: flex;
+    
+        justify-content: center;
+        text-align: left  ;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 60%;
+}
+.text-1 h3{
+    font-weight: 400;
+    font-family: "Alegreya";
+    margin: 0;
+    font-size: 30px;
+    color: #303030;
+  
+   
+}
+.sec-con2{
+    background-color: rgba(239, 239, 241, 0.9);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-2{
+
+    width:80% ;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row-reverse wrap;
+}
+
+.sec2-img img{
+    width: 490px;
+ 
+}
+.con-text2{   
+    margin: 0 25px;
+     /* display:flex ;
+justify-content: flex-start;
+align-items: flex-start; */
+
+}
+.text-2 h3{
+font-weight: 400;
+    font-family: "Alegreya";   
+     font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.sec-2 .text-2{
+    font-weight: 400;
+        font-family: "Alegreya";
+    color: rgb(89, 97, 103);
+
+    width: 400px;
+
+}
+.sec-con3{
+height: 85vh;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec-3{
+    width: 80%;
+   
+}
+
+.one-text{
+    text-align: center;
+    font-size: 25px;
+}
+.one-text p{
+    color: #686868;
+    text-align: center;
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+.sec3-img{
+    width: 380px;
+
+}
+.sec3-img img{
+    width: 100%;
+    display: block;
+} 
+.sec3-img h3,p{
+    text-align: center;
+    font-size: 19px;
+    color: #686868;
+}
+.sec3-img h3{
+    color: black;
+    font-size: 21px;
+}
+.con-img3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-con4{
+    background-color: rgba(228, 226, 226, 0.8);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.sec-4{
+
+/* background-color: blue; */
+width: 90%;
+height: 60vh;
+display: flex; 
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+.sec4-text1{
+    width: 40%;
+    /* background-color:blueviolet; */
+    height: 40vh;
+align-self: flex-start;
+
+
+
+}
+ .sec4-text1 .sec4-text2{
+    width: 100;
+    /* background-color:blueviolet; */
+    height: 40vh;
+margin-top: 45px;
+    
+}
+
+.sec4-text2 ul li{
+    color: #686868;
+    margin-top: 20px;
+font-size: 20px;
+
+}
+.sec4-text1 p,h2{
+    text-align: left;
+}
+.sec4-img{
+/* background-color: blanchedalmond; */
+width: 45%;
+height: 50vh;
+
+
+
+}
+.sec4-img img{
+    width: 100%;
+    height: 100%;
+}
